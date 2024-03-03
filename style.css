@@ -62,7 +62,6 @@ ul {
 }
 
 .box {
-    width: 60%;
     margin: 0 auto;
     padding: 10px 50px;
     background-color: lavender;
@@ -87,7 +86,6 @@ section {
 }
 
 .header {
-    width: 60%;
     background-color: rgb(18, 5, 31);
     margin: 0 auto;
 }
@@ -95,7 +93,10 @@ section {
 .footer {
     background-color: rgb(18, 5, 31);
     color: lavender;
-    width: 60%;
     margin: 0 auto;
     text-align: center;
+}
+
+.header, .box, .footer {
+    width: 60%;
 }
