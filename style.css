@@ -22,6 +22,7 @@ h1 {
         "wdth" 112.5;
     font-size: 25px;
     margin: 0;   
+    padding: 40px;
 }
 
 h2 {
@@ -39,12 +40,12 @@ td {
 
 .levy-sloupec {
     font-weight: bold;
-    padding-right: 100px;
     text-align: left;
 }
 
 .pravy-sloupec {
     text-align: right;
+    width: 60%;
 }
 
 ul {
@@ -86,11 +87,9 @@ section {
 }
 
 .header {
-    height: 100px;
     width: 60%;
     background-color: rgb(18, 5, 31);
     margin: 0 auto;
-    padding: 35px 30px;
 }
 
 .footer {
